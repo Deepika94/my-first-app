@@ -1,0 +1,8 @@
+From nginx
+
+WORKDIR  '/app'
+
+
+EXPOSE  80 
+
+COPY ./Html/ /usr/share/nginx/html/
